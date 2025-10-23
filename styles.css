@@ -132,7 +132,7 @@ th {
     border-radius: 10px;
     text-align: center;
 }
-#contatct .button {
+#contact .button {
    display: inline-block;
    margin-top: 0.6rem;
     background: #fff;
@@ -141,6 +141,26 @@ th {
     padding: 0.6rem 1rem;
     border-radius: 6px;
     text-decoration: none;
+}
+/* Nested Selector: only images inside articles will get a little left of the margin*/
+article img {
+    margin: 0 auto 0.5rem auto;
+    display: block;
+}
+/* Descendent and pseudo class: highlights on links on hover */
+nav a:hover,
+#contact .button:hover {
+    background: var(--lavender);
+    color: #fff;
+}
+/*Child Selector: first table row header formatting*/
+.price-card table tr:first-child th {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+/*adjacent sibling selector: space the sections nicely*/
+section + section {
+    margin-top: 2.5rem;
 }
 footer a {
     color: var(--teal);
