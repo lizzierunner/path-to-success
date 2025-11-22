@@ -1,5 +1,5 @@
 /* CSS BY ELIZABETH JOHNSON */
-/* Imported FONTS */
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 /* CSS RESET */
@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Root Variables */
+/* ROOT VARIABLES */
 :root {
     --page-blue: #1e2f6b;
     --card-blue: #203b7b;
@@ -22,7 +22,7 @@
     --background: #fafafa;
     --max-width: 450px;
 }
-/* Global Styles(mobile first/small) */
+/* GLOBAL STYLES (mobile first/small) */
 html, body {
     font-family: 'Roboto', sans-serif;
     color: var(--text);
